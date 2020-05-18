@@ -1,75 +1,64 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya Website</title>
-    <link rel="stylesheet" href="css/style.css">
-    </head>
+    <title>Aditya</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital,wght@1,300&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "favicon.ico">
+</head>
 <body>
-    <table cellspacing = "25px">
-        <tr>
-            <td>
-    <img src="image/download.png" alt = "scenery">
-            </td>
-            <td>
-    <h1>Aditya</h1>
-    <em>Software Developer at<a href = "https://www.linkedin.com/in/thefriction/"> Azcom Technologies</a></em>
-    <p>Hi this is <strong>Website</strong></p>
-    <p>I'm a protocol stack developer</p>
-        </td>
-        </tr>
-        </table>
-    <hr>
-    <h3>My hobbies</h3>
-        <ul>
-            <li>Playing Football, Chess</li>
-            <li>Stock Market</li>
-            <li>Reading Novel</li>
-        </ul>
-    <h3>Experience</h3>
-    <table border = "1px" cellspacing = "10px">
-        <thead>
-            <tr>
-                <td>Date</td>
-                <td>Company</td>
-            </tr>
-        </thead>
-        <tr>
-            <td>2017-2017</td>
-            <td>Coding Ninjas Web Dev.</td>
-        </tr>
-        <tr>
-            <td>2019-2020</td>
-            <td>Software Dev. at Azcom Technologies</td>
-        </tr>
-        </body>
-    </table>
+    <div class="top-container">
+        <img src href="images/cloud.png">
+        <img class = "top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Aditya</h1>
+        <h2>A <span class = "pro">pro</span>grammer</h2>
+        <img class = "bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class = "mountain" src="images/mountain.png" alt="cloud-img">
 
-    <hr>
-    <h3>Skills</h3>
-        <table cellspacing = "10px">
-            <tr>
-                <td>Machine Learning</td>
-                <td>❤❤❤❤</td>
-            </tr>
-            <tr>
-                <td>LTE</td>
-                <td>❤❤❤❤❤</td>
-            </tr>
-        </table>
-    <hr>
-    <table>
-        <tr>
-            <td>
-    <a href= "hobbies.html">My hobbies</a>
-            </td>
-            <td>
-            </p><a href= "contact.html">Contact Me</a></p>
-        </td>
-        </tr>
-        </table>
-    </table>    
-    
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img id="dp" src="images/aditya.png" alt="">
+          <h2>Hello.</h2>
+          <p id="summary">I'm a Software Developer in Azcom Technology. I am keenly intrested in Web Development and Machine Learning. I love to play football and<a href="https://www.chess.com/member/aditya_aswal/">Chess</a></p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="skill-image" src="images/telco.png" alt="">
+            <h3>LTE - 4G technology, eNodeB: RRC Layer, RPC, TiMoN</h3>
+            <p>Developed E-RAB Modify procedure at the eNodeB side to modify the allocated resources on Uu and S1 for one or several
+              E-RABs. Implemented the design change of eNodeB’s Radio Resouce Control layer to allow handling of concurrent procedures.
+                            Leveraged Knowledge in LTE and tools like TiMoN, SVN, Eclipse, </p>
+          </div>
+          <div class="skill-row">
+            <img id = "computer-image" class="skill-image" src="images/computer.png" alt="">
+            <h3>Machine Learning</h3>
+            <p>Incorporated models like Demographic Filtering, Content-Based Filtering and Collaborative Filtering to make a multiple movie recommendation systems.
+              Skilled in Scikit, SVD, Cosine similarity, tf-idf, Data Cleaning, Flask, AWS, One hot encoding, HTML, JSON.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <p>Love to talk about Stock Market. Let's talk about how awesome they are.</p>
+          <p>We can play a game of chess while we talk at it.</p>
+          <a class="btn"  href="mailto:adityaaswal98@email.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <div id = "social-media">
+          <a class="footer-link" href="https://www.linkedin.com/in/thefriction/">LinkedIn</a>
+          <a class="footer-link" href="https://twitter.com/">Twitter</a>
+          <a class="footer-link" href="https://thefriction.github.io/Portfolio/">Website</a>
+        </div>
+        <p id= "cc">© 2020 Aditya Singh Aswal.</p>
+      </div>
+      
 </body>
 </html>
